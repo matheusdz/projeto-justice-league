@@ -46,14 +46,9 @@ header img {
     width: 130px;
 }
 
-header a {
-    border-bottom: 1px solid var(--color-white1);
-}
-
 header a:hover,
 header a:focus {
     color: var(--color-yellow);
-    border-bottom: 1px solid var(--color-yellow);
 }
 
 header ul {
@@ -170,21 +165,21 @@ header ul li + li {
 
 footer {
     padding: 64px 24px;
-    background-color: #666262;
     text-align: center;
     color: var(--color-white1);
 }
 
 footer a {
     font-weight: bold;
-    border-bottom: 1px solid var(--color-yellow);
-    color: var(--color-yellow);
+    font-size: 18px;  
+    color: var(--color-white1);
+    border-bottom: 1px solid var(--color-white1);
 }
 
 footer a:hover,
 footer a:focus {
-    color: var(--color-white1);
-    border-bottom: 1px solid var(--color-white1);
+    color: var(--color-yellow);
+    border-bottom: 1px solid var(--color-yellow);
 }
 
 .container {
