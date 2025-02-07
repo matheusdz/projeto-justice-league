@@ -67,7 +67,7 @@ header ul li + li {
     justify-content: flex-end;
     align-items: center;
     padding: 24px;
-    background-image: url(/img/banner.png);
+    background-image: url(/src/assets/images/banner.png);
     background-position: center 25%;
     background-size: cover;
     flex-direction: column;
